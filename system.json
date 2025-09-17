@@ -2,14 +2,14 @@
   "id": "dnd5e",
   "title": "Dungeons & Dragons Fifth Edition",
   "description": "A system for playing the fifth edition of the world's most popular role-playing game in the Foundry Virtual Tabletop environment.",
-  "version": "5.2.0",
+  "version": "1.0.0",
   "compatibility": {
     "minimum": "13.347",
     "verified": "13"
   },
-  "url": "https://github.com/foundryvtt/dnd5e/",
-  "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
-  "download": "https://github.com/foundryvtt/dnd5e/releases/download/release-5.2.0/dnd5e-release-5.2.0.zip",
+  "url": "https://github.com/WilliamJSS/dnd5e/",
+  "manifest": "https://raw.githubusercontent.com/WilliamJSS/dnd5e/master/system.json",
+  "download": "https://github.com/WilliamJSS/dnd5e/releases/download/release-1.0.0/dnd5e-release-1.0.0.zip",
   "authors": [
     {
       "name": "Atropos",
@@ -29,19 +29,35 @@
     },
     "Actor": {
       "character": {
-        "htmlFields": ["details.biography.value", "details.biography.public", "bastion.description"]
+        "htmlFields": [
+          "details.biography.value",
+          "details.biography.public",
+          "bastion.description"
+        ]
       },
       "encounter": {
-        "htmlFields": ["description.full", "description.summary"]
+        "htmlFields": [
+          "description.full",
+          "description.summary"
+        ]
       },
       "group": {
-        "htmlFields": ["description.full", "description.summary"]
+        "htmlFields": [
+          "description.full",
+          "description.summary"
+        ]
       },
       "npc": {
-        "htmlFields": ["details.biography.value", "details.biography.public"]
+        "htmlFields": [
+          "details.biography.value",
+          "details.biography.public"
+        ]
       },
       "vehicle": {
-        "htmlFields": ["details.biography.value", "details.biography.public"]
+        "htmlFields": [
+          "details.biography.value",
+          "details.biography.public"
+        ]
       }
     },
     "ChatMessage": {
@@ -52,79 +68,152 @@
     "Item": {
       "weapon": {
         "filePathFields": {
-          "activities.*.img": ["IMAGE"]
+          "activities.*.img": [
+            "IMAGE"
+          ]
         },
-        "htmlFields": ["description.value", "description.chat", "unidentified.description"]
+        "htmlFields": [
+          "description.value",
+          "description.chat",
+          "unidentified.description"
+        ]
       },
       "equipment": {
         "filePathFields": {
-          "activities.*.img": ["IMAGE"]
+          "activities.*.img": [
+            "IMAGE"
+          ]
         },
-        "htmlFields": ["description.value", "description.chat", "unidentified.description"]
+        "htmlFields": [
+          "description.value",
+          "description.chat",
+          "unidentified.description"
+        ]
       },
       "consumable": {
         "filePathFields": {
-          "activities.*.img": ["IMAGE"]
+          "activities.*.img": [
+            "IMAGE"
+          ]
         },
-        "htmlFields": ["description.value", "description.chat", "unidentified.description"]
+        "htmlFields": [
+          "description.value",
+          "description.chat",
+          "unidentified.description"
+        ]
       },
       "tool": {
         "filePathFields": {
-          "activities.*.img": ["IMAGE"]
+          "activities.*.img": [
+            "IMAGE"
+          ]
         },
-        "htmlFields": ["description.value", "description.chat", "unidentified.description"]
+        "htmlFields": [
+          "description.value",
+          "description.chat",
+          "unidentified.description"
+        ]
       },
       "loot": {
-        "htmlFields": ["description.value", "description.chat", "unidentified.description"]
+        "htmlFields": [
+          "description.value",
+          "description.chat",
+          "unidentified.description"
+        ]
       },
       "race": {
         "filePathFields": {
-          "advancement.*.icon": ["IMAGE"]
+          "advancement.*.icon": [
+            "IMAGE"
+          ]
         },
-        "htmlFields": ["description.value", "description.chat"]
+        "htmlFields": [
+          "description.value",
+          "description.chat"
+        ]
       },
       "background": {
         "filePathFields": {
-          "advancement.*.icon": ["IMAGE"]
+          "advancement.*.icon": [
+            "IMAGE"
+          ]
         },
-        "htmlFields": ["description.value", "description.chat"]
+        "htmlFields": [
+          "description.value",
+          "description.chat"
+        ]
       },
       "class": {
         "filePathFields": {
-          "advancement.*.icon": ["IMAGE"]
+          "advancement.*.icon": [
+            "IMAGE"
+          ]
         },
-        "htmlFields": ["description.value", "description.chat"]
+        "htmlFields": [
+          "description.value",
+          "description.chat"
+        ]
       },
       "subclass": {
         "filePathFields": {
-          "advancement.*.icon": ["IMAGE"]
+          "advancement.*.icon": [
+            "IMAGE"
+          ]
         },
-        "htmlFields": ["description.value", "description.chat"]
+        "htmlFields": [
+          "description.value",
+          "description.chat"
+        ]
       },
       "spell": {
         "filePathFields": {
-          "activities.*.img": ["IMAGE"]
+          "activities.*.img": [
+            "IMAGE"
+          ]
         },
-        "htmlFields": ["description.value", "description.chat"]
+        "htmlFields": [
+          "description.value",
+          "description.chat"
+        ]
       },
       "feat": {
         "filePathFields": {
-          "activities.*.img": ["IMAGE"],
-          "advancement.*.icon": ["IMAGE"]
+          "activities.*.img": [
+            "IMAGE"
+          ],
+          "advancement.*.icon": [
+            "IMAGE"
+          ]
         },
-        "htmlFields": ["description.value", "description.chat"]
+        "htmlFields": [
+          "description.value",
+          "description.chat"
+        ]
       },
       "container": {
-        "htmlFields": ["description.value", "description.chat", "unidentified.description"]
+        "htmlFields": [
+          "description.value",
+          "description.chat",
+          "unidentified.description"
+        ]
       },
       "backpack": {
-        "htmlFields": ["description.value", "description.chat", "unidentified.description"]
+        "htmlFields": [
+          "description.value",
+          "description.chat",
+          "unidentified.description"
+        ]
       },
       "facility": {
         "filePathFields": {
-          "activities.*.img": ["IMAGE"]
+          "activities.*.img": [
+            "IMAGE"
+          ]
         },
-        "htmlFields": ["description.value", "description.chat"]
+        "htmlFields": [
+          "description.value",
+          "description.chat"
+        ]
       }
     },
     "JournalEntryPage": {
@@ -139,11 +228,15 @@
       },
       "map": {},
       "rule": {
-        "htmlFields": ["tooltip"]
+        "htmlFields": [
+          "tooltip"
+        ]
       },
       "spells": {},
       "subclass": {
-        "htmlFields": ["details.value"]
+        "htmlFields": [
+          "details.value"
+        ]
       }
     },
     "RegionBehavior": {
@@ -162,7 +255,9 @@
       "flags": {
         "dnd5e": {
           "sourceBook": "SRD 5.1",
-          "types": ["character"]
+          "types": [
+            "character"
+          ]
         }
       }
     },
@@ -176,7 +271,9 @@
       "flags": {
         "dnd5e": {
           "sourceBook": "SRD 5.1",
-          "types": ["npc"]
+          "types": [
+            "npc"
+          ]
         }
       }
     },
@@ -190,7 +287,15 @@
       "flags": {
         "dnd5e": {
           "sourceBook": "SRD 5.1",
-          "types": ["weapon", "equipment", "consumable", "tool", "loot", "feat", "container"]
+          "types": [
+            "weapon",
+            "equipment",
+            "consumable",
+            "tool",
+            "loot",
+            "feat",
+            "container"
+          ]
         }
       }
     },
@@ -204,7 +309,9 @@
       "flags": {
         "dnd5e": {
           "sourceBook": "SRD 5.1",
-          "types": ["loot"]
+          "types": [
+            "loot"
+          ]
         }
       }
     },
@@ -219,7 +326,9 @@
         "dnd5e": {
           "sorting": "m",
           "sourceBook": "SRD 5.1",
-          "types": ["spell"]
+          "types": [
+            "spell"
+          ]
         }
       }
     },
@@ -233,7 +342,10 @@
       "flags": {
         "dnd5e": {
           "sourceBook": "SRD 5.1",
-          "types": ["background", "feat"]
+          "types": [
+            "background",
+            "feat"
+          ]
         }
       }
     },
@@ -247,7 +359,9 @@
       "flags": {
         "dnd5e": {
           "sourceBook": "SRD 5.1",
-          "types": ["class"]
+          "types": [
+            "class"
+          ]
         }
       }
     },
@@ -261,7 +375,9 @@
       "flags": {
         "dnd5e": {
           "sourceBook": "SRD 5.1",
-          "types": ["subclass"]
+          "types": [
+            "subclass"
+          ]
         }
       }
     },
@@ -275,7 +391,10 @@
       "flags": {
         "dnd5e": {
           "sourceBook": "SRD 5.1",
-          "types": ["feat", "weapon"]
+          "types": [
+            "feat",
+            "weapon"
+          ]
         }
       }
     },
@@ -289,7 +408,10 @@
       "flags": {
         "dnd5e": {
           "sourceBook": "SRD 5.1",
-          "types": ["race", "feat"]
+          "types": [
+            "race",
+            "feat"
+          ]
         }
       }
     },
@@ -303,7 +425,10 @@
       "flags": {
         "dnd5e": {
           "sourceBook": "SRD 5.1",
-          "types": ["feat", "weapon"]
+          "types": [
+            "feat",
+            "weapon"
+          ]
         }
       }
     },
@@ -356,7 +481,11 @@
       "flags": {
         "dnd5e": {
           "sourceBook": "SRD 5.2",
-          "types": ["class", "subclass", "feat"]
+          "types": [
+            "class",
+            "subclass",
+            "feat"
+          ]
         }
       }
     },
@@ -373,7 +502,11 @@
       "flags": {
         "dnd5e": {
           "sourceBook": "SRD 5.2",
-          "types": ["race", "background", "feat"]
+          "types": [
+            "race",
+            "background",
+            "feat"
+          ]
         }
       }
     },
@@ -390,7 +523,9 @@
       "flags": {
         "dnd5e": {
           "sourceBook": "SRD 5.2",
-          "types": ["feat"]
+          "types": [
+            "feat"
+          ]
         }
       }
     },
@@ -408,7 +543,9 @@
         "dnd5e": {
           "sorting": "m",
           "sourceBook": "SRD 5.2",
-          "types": ["spell"]
+          "types": [
+            "spell"
+          ]
         }
       }
     },
@@ -425,7 +562,15 @@
       "flags": {
         "dnd5e": {
           "sourceBook": "SRD 5.2",
-          "types": ["weapon", "equipment", "consumable", "tool", "loot", "feat", "container"]
+          "types": [
+            "weapon",
+            "equipment",
+            "consumable",
+            "tool",
+            "loot",
+            "feat",
+            "container"
+          ]
         }
       }
     },
@@ -469,7 +614,10 @@
       "flags": {
         "dnd5e": {
           "sourceBook": "SRD 5.2",
-          "types": ["feat", "weapon"]
+          "types": [
+            "feat",
+            "weapon"
+          ]
         }
       }
     }
@@ -578,8 +726,16 @@
     "needsMigrationVersion": "5.1.0",
     "compatibleMigrationVersion": "0.8",
     "hotReload": {
-      "extensions": ["css", "hbs", "json"],
-      "paths": ["dnd5e.css", "templates", "lang"]
+      "extensions": [
+        "css",
+        "hbs",
+        "json"
+      ],
+      "paths": [
+        "dnd5e.css",
+        "templates",
+        "lang"
+      ]
     }
   }
 }

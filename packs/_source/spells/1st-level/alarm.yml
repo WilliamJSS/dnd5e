@@ -6,28 +6,20 @@ type: spell
 system:
   description:
     value: >-
-      <p>You set an alarm against unwanted intrusion. Choose a door, a window,
-      or an area within range that is no larger than a 20-foot cube. Until the
-      spell ends, an alarm alerts you whenever a Tiny or larger creature touches
-      or enters the warded area. When you cast the spell, you can designate
-      creatures that won't set off the alarm. You also choose whether the alarm
-      is mental or audible.</p><p>A mental alarm alerts you with a ping in your
-      mind if you are within 1 mile of the warded area. This ping awakens you if
-      you are sleeping.</p><p>An audible alarm produces the sound of a hand bell
-      for 10 seconds within 60 feet.</p>
-    chat: ''
+      <p>Você prepara um alarme contra intrusão indesejada. Escolha uma porta, uma janela ou uma área dentro do alcance que não seja maior que um cubo de 6 metros. Até o fim da magia, um alarme alerta você sempre que uma criatura Minúscula ou maior tocar ou entrar na área protegida. Quando você conjura a magia, você pode designar criaturas que não ativarão o alarme. Você também escolhe se o alarme será mental ou audível.</p><p>Um alarme mental alerta você com um aviso em sua mente se você estiver a até 1,5 quilômetro da área protegida. Este aviso acorda você se estiver dormindo.</p><p>Um alarme audível produz o som de um sino de mão por 10 segundos em um raio de 18 metros.</p>
+    chat: ""
   source:
-    custom: ''
+    custom: ""
     book: SRD 5.1
-    page: ''
+    page: ""
     license: CC-BY-4.0
-    rules: '2014'
+    rules: "2014"
   activation:
     type: minute
-    condition: ''
+    condition: ""
     value: 1
   duration:
-    value: '8'
+    value: "8"
     units: hour
   target:
     affects:
@@ -35,20 +27,19 @@ system:
     template:
       units: ft
       type: cube
-      size: '20'
+      size: "20"
       contiguous: false
   range:
-    value: '30'
+    value: "30"
     units: ft
   uses:
-    max: ''
+    max: ""
     recovery: []
     spent: 0
   level: 1
   school: abj
   materials:
-    value: A tiny bell and a piece of fine silver wire.
-    consumed: false
+    value: Um pequeno sino e um pedaço de fio de prata fino.
     cost: 0
     supply: 0
   preparation:
@@ -71,10 +62,10 @@ system:
         targets: []
         scaling:
           allowed: false
-          max: ''
+          max: ""
         spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: ""
       duration:
         units: inst
         concentration: false
@@ -91,8 +82,8 @@ system:
           choice: false
         override: false
       roll:
-        formula: ''
-        name: ''
+        formula: ""
+        name: ""
         prompt: false
         visible: false
       uses:
@@ -107,11 +98,11 @@ effects: []
 folder: ERuXllkhTQF51rDJ
 _stats:
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: "13.344"
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1725037348427
   modifiedTime: 1725992717344
   lastModifiedBy: dnd5ebuilder0000
   exportSource: null
-_key: '!items!7p9IuWrSWFgfyQo2'
+_key: "!items!7p9IuWrSWFgfyQo2"
